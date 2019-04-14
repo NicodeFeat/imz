@@ -1,0 +1,22 @@
+name: Clearchat-imz
+version: 1.1
+main: nico.clearchat-imz.ClearChat
+authors: [Nico Kubicki]
+description: Schnell Programmiert für ImZero Server!
+website: https://aktuellnochkeineverfügbar.de
+
+commands:
+   clearchat:
+     description: Clear Chat!
+     usage: /clearchat
+   clearchatreload:
+     description: Lädt die Configurations Dateien neu!  
+     usage: /clearchatreload
+    
+permissions:     
+   clearchat.use:
+     description: Gives access to /clearchat!
+     default: op
+   clearchat.reload:
+     description: Gives access to /clearchatreload!
+     default: op  
